@@ -1,0 +1,15 @@
+<resources>
+    <!--
+     liste de String utilisé pour l'activité xml lauch_logo.xml
+    -->
+    <string name="app_name">Soundaze</string>
+    <string name="info">A propos</string>
+    <string name="load">Load files</string>
+    <string name="workSpace">My workspace</string>
+    <string name="record">Voice recorder</string>
+    <!--
+     liste de String utilisé pour l'activité xml activity_listening.xml
+    -->
+    <string name="back">Back</string>
+    <string name="add">add it to my workspace</string>
+</resources>

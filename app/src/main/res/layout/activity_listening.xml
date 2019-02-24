@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grad_bg"
+    android:layout_height="match_parent"
+
+    tools:context="projet4.com.soundaze.ListeningActivity">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@color/blanc"
+        android:text="||"
+        android:id="@+id/btnPlay"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@color/blanc"
+        android:text="&gt;&gt;"
+        android:id="@+id/btnFor"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@+id/btnPlay"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@color/blanc"
+        android:text="&gt;&gt;"
+        android:id="@+id/btnBack"
+        android:layout_marginTop="150dp"
+        android:layout_toLeftOf="@+id/btnPlay"
+        android:layout_marginRight="20dp"
+        android:textSize="20dp"/>
+
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/seekbar"
+        android:splitTrack="false"
+        android:progressDrawable="@color/blanc"
+        android:progressTintMode="@color/noir"
+        android:thumbTint="@color/grisFonce"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/back"
+        android:onClick="onBack"
+        android:textColor="@color/blanc"
+        android:fontFamily="sans-serif-medium"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="345dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn_bg"
+        android:text="@string/add"
+        android:textColor="@color/blanc"
+        android:fontFamily="sans-serif-medium"/>
+
+</RelativeLayout>
